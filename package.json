@@ -1,7 +1,10 @@
-"scripts": {
-  "lint": "npx eslint backend",
-  "test": "node tests/e2e/app.test.js"
-},
+{
+  "name": "cammedmoun",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "npx eslint backend",
+    "test": "node tests/e2e/app.test.js"
+  },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "eslint": "^9.39.4",
@@ -10,4 +13,3 @@
     "selenium-webdriver": "^4.41.0"
   }
 }
-
