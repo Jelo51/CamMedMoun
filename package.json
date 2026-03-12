@@ -1,7 +1,7 @@
-{
-  "scripts": {
-    "test": "node tests/e2e/app.test.js"
-  },
+"scripts": {
+  "lint": "npx eslint backend",
+  "test": "node tests/e2e/app.test.js"
+},
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "eslint": "^9.39.4",
