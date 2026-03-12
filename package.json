@@ -1,8 +1,13 @@
 {
+  "scripts": {
+    "test": "node tests/e2e/app.test.js"
+  },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "eslint": "^9.39.4",
     "eslint-plugin-react": "^7.37.5",
-    "globals": "^17.4.0"
+    "globals": "^17.4.0",
+    "selenium-webdriver": "^4.41.0"
   }
 }
+
